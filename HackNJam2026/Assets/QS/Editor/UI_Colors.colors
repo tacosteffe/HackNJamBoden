@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12323, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: UI_Colors
+  m_EditorClassIdentifier: 
+  m_Presets:
+  - m_Name: DullWhite
+    m_Color: {r: 0.84276724, g: 0.84276724, b: 0.84276724, a: 1}
+  - m_Name: Gray1
+    m_Color: {r: 0.5882353, g: 0.5882353, b: 0.5882353, a: 1}
+  - m_Name: Gray2
+    m_Color: {r: 0.49019608, g: 0.49019608, b: 0.49019608, a: 1}
+  - m_Name: Gray3
+    m_Color: {r: 0.39215687, g: 0.39215687, b: 0.39215687, a: 1}
+  - m_Name: Gray4
+    m_Color: {r: 0.29559743, g: 0.29559743, b: 0.29559743, a: 1}
+  - m_Name: Dark1
+    m_Color: {r: 0.16352195, g: 0.16352195, b: 0.16352195, a: 1}
+  - m_Name: Dark2
+    m_Color: {r: 0.13836467, g: 0.13836467, b: 0.13836467, a: 1}
+  - m_Name: Dark3
+    m_Color: {r: 0.10980392, g: 0.10980392, b: 0.10980392, a: 1}
+  - m_Name: Dark4
+    m_Color: {r: 0.07450981, g: 0.07450981, b: 0.07450981, a: 1}
+  - m_Name: Lime
+    m_Color: {r: 0.19942856, g: 1, b: 0, a: 1}
+  - m_Name: Green
+    m_Color: {r: 0.12291822, g: 0.61635214, b: 0, a: 1}
+  - m_Name: DarkGreen
+    m_Color: {r: 0, g: 0.36477977, b: 0.023031294, a: 1}
+  - m_Name: PureRed
+    m_Color: {r: 1, g: 0.097524926, b: 0, a: 1}
+  - m_Name: Red
+    m_Color: {r: 0.72327036, g: 0.09311564, b: 0.025018701, a: 1}
+  - m_Name: DarkRed
+    m_Color: {r: 0.4528302, g: 0.044162232, b: 0, a: 1}
+  - m_Name: Brown
+    m_Color: {r: 0.59119487, g: 0.29211983, b: 0, a: 1}
+  - m_Name: Orange
+    m_Color: {r: 0.8679245, g: 0.42885685, b: 0, a: 1}
+  - m_Name: Orange2
+    m_Color: {r: 1, g: 0.50696814, b: 0, a: 1}
+  - m_Name: Orange3
+    m_Color: {r: 1, g: 0.34332255, b: 0, a: 1}
+  - m_Name: Cyan
+    m_Color: {r: 0, g: 0.92105794, b: 1, a: 1}
+  - m_Name: Blue1
+    m_Color: {r: 0, g: 0.54508495, b: 1, a: 1}
+  - m_Name: Blue2
+    m_Color: {r: 0, g: 0.21654177, b: 1, a: 1}

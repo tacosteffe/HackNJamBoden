@@ -107,3 +107,7 @@ InitTestScene*.unity*
 /HackNJam2026/Library
 /HackNJam2026/Temp
 /HackNJam2026/UserSettings
+
+HackNJam2026/.idea/
+
+HackNJam2026/obj/
