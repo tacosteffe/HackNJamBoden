@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public class MenuSwitcher : MonoBehaviour
+public class MenuSwitcher : Singleton<MenuSwitcher>
 {
     [SerializeField]
     private GameEventSO GameStateChange;
@@ -14,6 +14,9 @@ public class MenuSwitcher : MonoBehaviour
 
     private void Awake()
     {
+        Implement(this, out var _);
+        MenuParent.SetActive(false);
+        GameParent.SetActive(false);
         GameStateChange.OnEventRaised += OnStateSwitch;
     }
 
@@ -24,6 +27,7 @@ public class MenuSwitcher : MonoBehaviour
 
     void OnStateSwitch(Component comp, object value)
     {
+        Debug.Log("STATE SWITCH!");
         if (value is GAMESTATE state)
         {
             if (state == GAMESTATE.MENU)
