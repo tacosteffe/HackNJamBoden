@@ -4,11 +4,8 @@ using UnityEngine;
 public class PlayerValues : Singleton<PlayerValues>
 {
     public TextMeshProUGUI NormalBallAmmo;
-    public TextMeshProUGUI ExplotionBallAmmo;
-    //public TextMeshProUGUI Health;
-    //public TextMeshProUGUI Score;
+    public TextMeshProUGUI ExplosionBallAmmo;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Awake()
     {
         Implement(this, out var _);
@@ -16,13 +13,7 @@ public class PlayerValues : Singleton<PlayerValues>
 
     public void UpdateAmmoCount(int regular, int explosive)
     {
-        NormalBallAmmo.text = $"Normal Ball Ammo: {regular}";
-        ExplotionBallAmmo.text = $"Explotion Ball Ammo: {explosive}";
-    }
-
-
-    void SetActiveBN()
-    {
-
+        NormalBallAmmo.text = $"Normal Ammo: {regular}";
+        ExplosionBallAmmo.text = $"Explosion Ammo: {explosive}";
     }
 }

@@ -9,6 +9,7 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
     public bool TankControlsY = false;
 
     public AudioSource WheelTurn;
+    public AudioSource FireSound;
 
     //Movement input
     private Vector2 MoveInput = Vector2.zero;
@@ -18,10 +19,14 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
 
     private float AimAngle = 0f;
     private float MinAngle = 0f;
-    private float MaxAngle = 45f;
+    private float MaxAngle = 35f;
 
 
-
+    public Transform Knight;
+    private Vector3 OrigPos;
+    public float KnightBounce = 0.1f;
+    public float KnightBounceSpeed = 10f;
+    public float KnightBounceTimer = 3f;
 
 
 
@@ -37,6 +42,7 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
     {
         Implement(this, out var _);
 
+        OrigPos = Knight.transform.localPosition;
         FireState = FIRING_STATE.WAITING;
         Rotation = StartRotation;
         CurrentFireAngle = CockedAngle;
@@ -46,7 +52,9 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
         UpdateArmRotation();
         SetPlaceholderBall(true);
 
-        PlayerValues.Instance.UpdateAmmoCount(NormalBallAmmoAmount, ExplotionBallAmmoAmount);
+        NormalBallAmmoAmount = 10;
+        ExplosionBallAmmoAmount = 5;
+        PlayerValues.Instance.UpdateAmmoCount(NormalBallAmmoAmount, ExplosionBallAmmoAmount);
 
         InputManager.Instance.SubscribeHeldAction("Player", "Move", OnMove);
         InputManager.Instance.SubscribeSingleAction("Player", "Jump", CallFire);
@@ -70,6 +78,12 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
 
             if (!WheelTurn.isPlaying)
                 WheelTurn.Play();
+
+            KnightBounceTimer += KnightBounceSpeed * Time.deltaTime;
+            Knight.transform.localPosition = OrigPos + new Vector3(
+                Mathf.Cos(KnightBounceTimer) * KnightBounce / 2f,
+                Mathf.Sin(KnightBounceTimer) * KnightBounce,
+                Mathf.Cos(KnightBounceTimer * 0.33f) * KnightBounce / 2f);
         }
         else if (WheelTurn.isPlaying)
         {
@@ -80,8 +94,9 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
         {
             AimAngle += TurnRate * Time.deltaTime * Mathf.Sign(MoveInput.y) * (TankControlsY ? 1f : -1f);
             AimAngle = Mathf.Clamp(AimAngle, MinAngle, MaxAngle);
+            FiringLoc.transform.localRotation = Quaternion.Euler(0f, 0f, AimAngle);
         }
-
+        
 
         if (FireState != FIRING_STATE.WAITING)
         {
@@ -114,7 +129,6 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
 
 
     private FIRING_STATE FireState = FIRING_STATE.WAITING;
-    private float FireCooldown = 5f;
 
     private EasyTimerNL FireAnimTimer = new EasyTimerNL(0.15f);
     private EasyTimerNL RetractAnimTimer = new EasyTimerNL(3f);
@@ -175,8 +189,6 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
 
     public void ChangeBall()
     {
-        //IF FireState == Retracting active -> false
-
         SetPlaceholderBall(FireState != FIRING_STATE.RETRACTING);
     }
 
@@ -191,12 +203,13 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
     void DrawAimLine()
     {
         var pos = FiringLoc.position;
-        var dir = (Quaternion.Euler(0f, 0f, AimAngle) * FiringLoc.right).normalized;
+        var dir = FiringLoc.right;
 
         AimLine.SetPositions(new Vector3[]
         {
             pos,
-            pos + dir * AimLineLength
+            (pos + dir * (AimLineLength / 2f)),
+            (pos + dir * AimLineLength)
         });
     }
 
@@ -212,39 +225,39 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
 
     [SerializeField, Header("PlayerValues")]
     public int NormalBallAmmoAmount = 10;
-    public int ExplotionBallAmmoAmount = 5;
+    public int ExplosionBallAmmoAmount = 5;
 
 
     
     void Launch()
     {
         var pos = FiringLoc.position;
-        var dir = (Quaternion.Euler(0f, 0f, AimAngle) * FiringLoc.right).normalized;
+        var dir = FiringLoc.right;
 
-        var go = Instantiate(Ball1_Prefab);
+        var go = Instantiate(CurrentActive == 0 ? Ball1_Prefab : Ball2_Prefab);
         var ball = go.GetComponent<BallBase>();
         ball.Fire(pos, dir, FiringForce);
 
         if (CurrentActive == 0) NormalBallAmmoAmount -= 1;
-        else if (CurrentActive == 1) ExplotionBallAmmoAmount -= 1;
-        PlayerValues.Instance.UpdateAmmoCount(NormalBallAmmoAmount, ExplotionBallAmmoAmount);
+        else if (CurrentActive == 1) ExplosionBallAmmoAmount -= 1;
+        PlayerValues.Instance.UpdateAmmoCount(NormalBallAmmoAmount, ExplosionBallAmmoAmount);
     }
 
 
     void OnMove(InputAction.CallbackContext ctx)
     {
         MoveInput = ctx.ReadValue<Vector2>();
-        Debug.Log(MoveInput);
     }
 
-    //TODO call from UI?
-    
 
     void CallFire(InputAction.CallbackContext ctx)
     {
-        if (CurrentActive == 0 && NormalBallAmmoAmount <= 0) return;
-        else if (CurrentActive == 1 && ExplotionBallAmmoAmount <= 0) return;
-        else if (FireState == FIRING_STATE.WAITING) FireState = FIRING_STATE.FIRING;
+        if ((CurrentActive == 0 && NormalBallAmmoAmount <= 0) || (CurrentActive == 1 && ExplosionBallAmmoAmount <= 0)) return;
+        if (FireState == FIRING_STATE.WAITING)
+        {
+            FireSound.Play();
+            FireState = FIRING_STATE.FIRING;
+        }
     }
 
     #endregion

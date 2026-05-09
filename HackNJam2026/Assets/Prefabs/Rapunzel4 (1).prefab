@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6209332649677256646}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -181,7 +181,7 @@ GameObject:
   - component: {fileID: 6061047485430194602}
   m_Layer: 6
   m_Name: MTEC_Keep_Body_Part_05_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -346,7 +346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: RuntimeAssembly::Fracture
   triggerOptions:
     triggerType: 0
-    minimumCollisionForce: 0
+    minimumCollisionForce: 5
     filterCollisionsByTag: 1
     triggerAllowedTags:
     - Untagged
@@ -372,16 +372,6 @@ MonoBehaviour:
     onCompleted:
       m_PersistentCalls:
         m_Calls: []
-  fragmentLayerName: Castle
-  fragmentsUseGravity: 1
-  fragmentsAreKinematic: 0
-  fragmentMass: 1
-  fragmentDrag: 0
-  fragmentAngularDrag: 0.05
-  wakeFragmentsAfterFracture: 1
-  explosionForce: 0.8
-  explosionRadius: 3
-  explosionUpwardsModifier: 0.2
   currentRefractureCount: 0
 --- !u!1 &74520303653922753
 GameObject:
@@ -399,7 +389,7 @@ GameObject:
   - component: {fileID: 4643649514886323130}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -563,7 +553,7 @@ GameObject:
   - component: {fileID: 8424270599966331592}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -725,7 +715,7 @@ GameObject:
   - component: {fileID: 9017256336228322861}
   m_Layer: 6
   m_Name: Cylinder
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -841,7 +831,7 @@ GameObject:
   - component: {fileID: 2451883997876494576}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Crenel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1005,7 +995,7 @@ GameObject:
   - component: {fileID: 2486450168919668519}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_21
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1166,7 +1156,7 @@ GameObject:
   - component: {fileID: 6621975768021697464}
   m_Layer: 6
   m_Name: MTEC_Keep_Facade_Worn_Patch_right_32
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1259,7 +1249,7 @@ GameObject:
   - component: {fileID: 8567687621746495208}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Crenel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1423,7 +1413,7 @@ GameObject:
   - component: {fileID: 6667025245576958062}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_13
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1587,7 +1577,7 @@ GameObject:
   - component: {fileID: 1419803498740322581}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1748,7 +1738,7 @@ GameObject:
   - component: {fileID: 2874071988928729134}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_Recess_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1841,7 +1831,7 @@ GameObject:
   - component: {fileID: 1189521346318795042}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2005,7 +1995,7 @@ GameObject:
   - component: {fileID: 5694682519331799348}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2166,7 +2156,7 @@ GameObject:
   - component: {fileID: 7411113106216931288}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Stone_Frame_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2259,7 +2249,7 @@ GameObject:
   - component: {fileID: 1489094996090549222}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_20
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2423,7 +2413,7 @@ GameObject:
   - component: {fileID: 183359816834367844}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_12
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2587,7 +2577,7 @@ GameObject:
   - component: {fileID: 7871874987962123725}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_19
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2751,7 +2741,7 @@ GameObject:
   - component: {fileID: 6727009893747722688}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2915,7 +2905,7 @@ GameObject:
   - component: {fileID: 2000440837624403649}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_22
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3076,7 +3066,7 @@ GameObject:
   - component: {fileID: 8434282939605685873}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Stone_Frame_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3169,7 +3159,7 @@ GameObject:
   - component: {fileID: 8214651299592154478}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3333,7 +3323,7 @@ GameObject:
   - component: {fileID: 5019817799325281892}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3497,7 +3487,7 @@ GameObject:
   - component: {fileID: 963805249991505119}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Crenel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3661,7 +3651,7 @@ GameObject:
   - component: {fileID: 3316336690589555477}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_09
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3825,7 +3815,7 @@ GameObject:
   - component: {fileID: 1691494044927917143}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3989,7 +3979,7 @@ GameObject:
   - component: {fileID: 7012773683001949713}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_09
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4153,7 +4143,7 @@ GameObject:
   - component: {fileID: 5919511984935048905}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4314,7 +4304,7 @@ GameObject:
   - component: {fileID: 1198590124766938440}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_Recess_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4407,7 +4397,7 @@ GameObject:
   - component: {fileID: 5057292534939677415}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_22
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4571,7 +4561,7 @@ GameObject:
   - component: {fileID: 2423819416098346760}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_21
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4735,7 +4725,7 @@ GameObject:
   - component: {fileID: 2102299487184359910}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_09
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4899,7 +4889,7 @@ GameObject:
   - component: {fileID: 5075079489508763694}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Parapet_Wall
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5063,7 +5053,7 @@ GameObject:
   - component: {fileID: 3204679394377375934}
   m_Layer: 6
   m_Name: MTEC_Wall_Part_04_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5227,7 +5217,7 @@ GameObject:
   - component: {fileID: 5039590130506149266}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5388,7 +5378,7 @@ GameObject:
   - component: {fileID: 1337328600708081763}
   m_Layer: 6
   m_Name: MTEC_Keep_Facade_Worn_Patch_right_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5481,7 +5471,7 @@ GameObject:
   - component: {fileID: 2712675492915223286}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5645,7 +5635,7 @@ GameObject:
   - component: {fileID: 7852034642888349732}
   m_Layer: 6
   m_Name: MTEC_Keep_Small_Roof_Hatch
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5809,7 +5799,7 @@ GameObject:
   - component: {fileID: 5908545061656809153}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5973,7 +5963,7 @@ GameObject:
   - component: {fileID: 1295763088906336891}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Crenel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6138,7 +6128,7 @@ GameObject:
   - component: {fileID: 3768436944535511806}
   m_Layer: 6
   m_Name: MTEC_Wall_Archway_Stone_Trim_+0.9
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6322,7 +6312,7 @@ GameObject:
   - component: {fileID: 245828697230377221}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Stone_Frame_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6415,7 +6405,7 @@ GameObject:
   - component: {fileID: 4436301446920497951}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6579,7 +6569,7 @@ GameObject:
   - component: {fileID: 3761614587349232678}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6743,7 +6733,7 @@ GameObject:
   - component: {fileID: 1947675853265447236}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_19
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6907,7 +6897,7 @@ GameObject:
   - component: {fileID: 529294893388488617}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7071,7 +7061,7 @@ GameObject:
   - component: {fileID: 8030779390503000516}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7235,7 +7225,7 @@ GameObject:
   - component: {fileID: 5039637772556642420}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7399,7 +7389,7 @@ GameObject:
   - component: {fileID: 3467451631378037354}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7563,7 +7553,7 @@ GameObject:
   - component: {fileID: 8960040730294353689}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7727,7 +7717,7 @@ GameObject:
   - component: {fileID: 8914891013045511418}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7891,7 +7881,7 @@ GameObject:
   - component: {fileID: 8516761426748573182}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8055,7 +8045,7 @@ GameObject:
   - component: {fileID: 8276265312454504654}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_09
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8216,7 +8206,7 @@ GameObject:
   - component: {fileID: 5359265859017594331}
   m_Layer: 6
   m_Name: MTEC_Keep_Facade_Worn_Patch_front_18
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8309,7 +8299,7 @@ GameObject:
   - component: {fileID: 1170808767817996393}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_12
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8473,7 +8463,7 @@ GameObject:
   - component: {fileID: 682735515432436723}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8634,7 +8624,7 @@ GameObject:
   - component: {fileID: 8034993498636794796}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Stone_Frame_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8727,7 +8717,7 @@ GameObject:
   - component: {fileID: 5412929506919540245}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Parapet_Wall
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8891,7 +8881,7 @@ GameObject:
   - component: {fileID: 4689985025421112270}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_11
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9055,7 +9045,7 @@ GameObject:
   - component: {fileID: 7836605518823283530}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9216,7 +9206,7 @@ GameObject:
   - component: {fileID: 2686755210635452824}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Stone_Frame_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9309,7 +9299,7 @@ GameObject:
   - component: {fileID: 5445944619356429933}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9473,7 +9463,7 @@ GameObject:
   - component: {fileID: 9212722761397544984}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_12
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9637,7 +9627,7 @@ GameObject:
   - component: {fileID: 6706402140542202790}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9802,7 +9792,7 @@ GameObject:
   - component: {fileID: 7417100674841387525}
   m_Layer: 6
   m_Name: MTEC_Keep_Body_Part_04_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9969,7 +9959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: RuntimeAssembly::Fracture
   triggerOptions:
     triggerType: 0
-    minimumCollisionForce: 0
+    minimumCollisionForce: 5
     filterCollisionsByTag: 1
     triggerAllowedTags:
     - Untagged
@@ -9995,16 +9985,6 @@ MonoBehaviour:
     onCompleted:
       m_PersistentCalls:
         m_Calls: []
-  fragmentLayerName: Castle
-  fragmentsUseGravity: 1
-  fragmentsAreKinematic: 0
-  fragmentMass: 1
-  fragmentDrag: 0
-  fragmentAngularDrag: 0.05
-  wakeFragmentsAfterFracture: 1
-  explosionForce: 0.8
-  explosionRadius: 3
-  explosionUpwardsModifier: 0.2
   currentRefractureCount: 0
 --- !u!1 &3728941507418580754
 GameObject:
@@ -10022,7 +10002,7 @@ GameObject:
   - component: {fileID: 767611780300353536}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10186,7 +10166,7 @@ GameObject:
   - component: {fileID: 5314689290350886339}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10350,7 +10330,7 @@ GameObject:
   - component: {fileID: 3238057690875566298}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Crenel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10514,7 +10494,7 @@ GameObject:
   - component: {fileID: 8611072520886772983}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_10
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10679,7 +10659,7 @@ GameObject:
   - component: {fileID: 4051265104189530314}
   m_Layer: 6
   m_Name: MTEC_Keep_Body_Part_03_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10848,7 +10828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: RuntimeAssembly::Fracture
   triggerOptions:
     triggerType: 0
-    minimumCollisionForce: 0
+    minimumCollisionForce: 5
     filterCollisionsByTag: 1
     triggerAllowedTags:
     - Untagged
@@ -10874,16 +10854,6 @@ MonoBehaviour:
     onCompleted:
       m_PersistentCalls:
         m_Calls: []
-  fragmentLayerName: Castle
-  fragmentsUseGravity: 1
-  fragmentsAreKinematic: 0
-  fragmentMass: 1
-  fragmentDrag: 0
-  fragmentAngularDrag: 0.05
-  wakeFragmentsAfterFracture: 1
-  explosionForce: 0.8
-  explosionRadius: 3
-  explosionUpwardsModifier: 0.2
   currentRefractureCount: 0
 --- !u!1 &3822557280706904815
 GameObject:
@@ -10901,7 +10871,7 @@ GameObject:
   - component: {fileID: 4558303873321783414}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_10
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11065,7 +11035,7 @@ GameObject:
   - component: {fileID: 865352320115306064}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11229,7 +11199,7 @@ GameObject:
   - component: {fileID: 115157511122873537}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11393,7 +11363,7 @@ GameObject:
   - component: {fileID: 1093444758766317705}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11557,7 +11527,7 @@ GameObject:
   - component: {fileID: 901210889073974024}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11721,7 +11691,7 @@ GameObject:
   - component: {fileID: 6923422670928237307}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11885,7 +11855,7 @@ GameObject:
   - component: {fileID: 477218408661289959}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12049,7 +12019,7 @@ GameObject:
   - component: {fileID: 5061865036185340028}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Crenel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12213,7 +12183,7 @@ GameObject:
   - component: {fileID: 6570733143604168841}
   m_Layer: 6
   m_Name: MTEC_Wall_Part_02_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12374,7 +12344,7 @@ GameObject:
   - component: {fileID: 5566251979355586977}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_Recess_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12467,7 +12437,7 @@ GameObject:
   - component: {fileID: 1878576717205654121}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12631,7 +12601,7 @@ GameObject:
   - component: {fileID: 5369748457388249700}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12796,7 +12766,7 @@ GameObject:
   - component: {fileID: 3463047377664024262}
   m_Layer: 6
   m_Name: MTEC_Keep_Body_Part_01_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12958,7 +12928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: RuntimeAssembly::Fracture
   triggerOptions:
     triggerType: 0
-    minimumCollisionForce: 0
+    minimumCollisionForce: 5
     filterCollisionsByTag: 1
     triggerAllowedTags:
     - Untagged
@@ -12984,16 +12954,6 @@ MonoBehaviour:
     onCompleted:
       m_PersistentCalls:
         m_Calls: []
-  fragmentLayerName: Castle
-  fragmentsUseGravity: 1
-  fragmentsAreKinematic: 0
-  fragmentMass: 1
-  fragmentDrag: 0
-  fragmentAngularDrag: 0.05
-  wakeFragmentsAfterFracture: 1
-  explosionForce: 0.8
-  explosionRadius: 3
-  explosionUpwardsModifier: 0.2
   currentRefractureCount: 0
 --- !u!1 &4285029703768320388
 GameObject:
@@ -13011,7 +12971,7 @@ GameObject:
   - component: {fileID: 6659571616168779949}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_23
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13172,7 +13132,7 @@ GameObject:
   - component: {fileID: 2461978079974277101}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13265,7 +13225,7 @@ GameObject:
   - component: {fileID: 57478810120085895}
   m_Layer: 6
   m_Name: MTEC_Wall_Part_01_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13429,7 +13389,7 @@ GameObject:
   - component: {fileID: 7462085935264151496}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13593,7 +13553,7 @@ GameObject:
   - component: {fileID: 7354054123773428620}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13757,7 +13717,7 @@ GameObject:
   - component: {fileID: 4441393798136295362}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_13
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13921,7 +13881,7 @@ GameObject:
   - component: {fileID: 7296063970907667025}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14085,7 +14045,7 @@ GameObject:
   - component: {fileID: 749646473079633769}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_10
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14249,7 +14209,7 @@ GameObject:
   - component: {fileID: 2850221000053891868}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_09
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14413,7 +14373,7 @@ GameObject:
   - component: {fileID: 4294298145241312796}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14577,7 +14537,7 @@ GameObject:
   - component: {fileID: 2679015420162689913}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14741,7 +14701,7 @@ GameObject:
   - component: {fileID: 5147155432253617431}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14905,7 +14865,7 @@ GameObject:
   - component: {fileID: 5561460005907175216}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15066,7 +15026,7 @@ GameObject:
   - component: {fileID: 6978183639366714386}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15156,7 +15116,7 @@ GameObject:
   - component: {fileID: 7570854253707794904}
   m_Layer: 6
   m_Name: MTEC_Keep_Facade_Worn_Patch_right_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15249,7 +15209,7 @@ GameObject:
   - component: {fileID: 8877795916306673728}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_17
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15413,7 +15373,7 @@ GameObject:
   - component: {fileID: 4572530520794012590}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15577,7 +15537,7 @@ GameObject:
   - component: {fileID: 3031126161583484656}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_23
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15741,7 +15701,7 @@ GameObject:
   - component: {fileID: 3658949415754376554}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Crenel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15905,7 +15865,7 @@ GameObject:
   - component: {fileID: 2810022028406632358}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Parapet_Wall
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16069,7 +16029,7 @@ GameObject:
   - component: {fileID: 5297946022588523754}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_20
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16233,7 +16193,7 @@ GameObject:
   - component: {fileID: 6576431460407603692}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16397,7 +16357,7 @@ GameObject:
   - component: {fileID: 3964589683665985373}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_24
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16558,7 +16518,7 @@ GameObject:
   - component: {fileID: 8906493994814086259}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16651,7 +16611,7 @@ GameObject:
   - component: {fileID: 7303430389812582078}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16815,7 +16775,7 @@ GameObject:
   - component: {fileID: 2990480437211188232}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_14
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16979,7 +16939,7 @@ GameObject:
   - component: {fileID: 1942547356876459543}
   m_Layer: 6
   m_Name: MTEC_Wall_Part_05_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17143,7 +17103,7 @@ GameObject:
   - component: {fileID: 7660741555448073819}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_10
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17307,7 +17267,7 @@ GameObject:
   - component: {fileID: 6632563461188677701}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_10
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17471,7 +17431,7 @@ GameObject:
   - component: {fileID: 7483923363771726282}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Crenel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17635,7 +17595,7 @@ GameObject:
   - component: {fileID: 5033867734497742453}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17799,7 +17759,7 @@ GameObject:
   - component: {fileID: 5745108501834102420}
   m_Layer: 6
   m_Name: MTEC_Wall_Top_Dark_Mortar_Band
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17963,7 +17923,7 @@ GameObject:
   - component: {fileID: 3420661388970901819}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_18
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18127,7 +18087,7 @@ GameObject:
   - component: {fileID: 3152311458221317695}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18291,7 +18251,7 @@ GameObject:
   - component: {fileID: 4203012891370718836}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Crenel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18452,7 +18412,7 @@ GameObject:
   - component: {fileID: 5506916651215742163}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18545,7 +18505,7 @@ GameObject:
   - component: {fileID: 6422564500997438408}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_11
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18709,7 +18669,7 @@ GameObject:
   - component: {fileID: 3832992963143993016}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_11
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18873,7 +18833,7 @@ GameObject:
   - component: {fileID: 6611981235506924684}
   m_Layer: 6
   m_Name: MTEC_Keep_Open_Flat_Roof_Floor
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19037,7 +18997,7 @@ GameObject:
   - component: {fileID: 1449536566802345616}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19201,7 +19161,7 @@ GameObject:
   - component: {fileID: 7702285974622965916}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19365,7 +19325,7 @@ GameObject:
   - component: {fileID: 6362047234652870662}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19529,7 +19489,7 @@ GameObject:
   - component: {fileID: 6939665865772311655}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_17
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19693,7 +19653,7 @@ GameObject:
   - component: {fileID: 3650795096631564654}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19857,7 +19817,7 @@ GameObject:
   - component: {fileID: 8855244380747733066}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20021,7 +19981,7 @@ GameObject:
   - component: {fileID: 857722963425683303}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Corbel_09
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20185,7 +20145,7 @@ GameObject:
   - component: {fileID: 4965248894086559663}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_01
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20349,7 +20309,7 @@ GameObject:
   - component: {fileID: 6185271511100104938}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_10
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20514,7 +20474,7 @@ GameObject:
   - component: {fileID: 6716008058265319282}
   m_Layer: 6
   m_Name: MTEC_Wall_Archway_Stone_Trim_-0.9
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20701,7 +20661,7 @@ GameObject:
   - component: {fileID: 3444812207981007756}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20865,7 +20825,7 @@ GameObject:
   - component: {fileID: 5554372744715961565}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Corbel_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21029,7 +20989,7 @@ GameObject:
   - component: {fileID: 4129020912732506954}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_11
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21193,7 +21153,7 @@ GameObject:
   - component: {fileID: 6413680594411914633}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_15
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21357,7 +21317,7 @@ GameObject:
   - component: {fileID: 8920336533095959096}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21521,7 +21481,7 @@ GameObject:
   - component: {fileID: 4538361709426855123}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Crenel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21682,7 +21642,7 @@ GameObject:
   - component: {fileID: 4081284386390654994}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_Recess_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21775,7 +21735,7 @@ GameObject:
   - component: {fileID: 49570344103419275}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_12
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21939,7 +21899,7 @@ GameObject:
   - component: {fileID: 4522733529572168639}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22281,7 +22241,7 @@ GameObject:
   - component: {fileID: 2359928528655472672}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Crenel_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22446,7 +22406,7 @@ GameObject:
   - component: {fileID: 5363736960668503023}
   m_Layer: 6
   m_Name: MTEC_Keep_Body_Part_02_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22612,7 +22572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: RuntimeAssembly::Fracture
   triggerOptions:
     triggerType: 0
-    minimumCollisionForce: 0
+    minimumCollisionForce: 5
     filterCollisionsByTag: 1
     triggerAllowedTags:
     - Untagged
@@ -22638,16 +22598,6 @@ MonoBehaviour:
     onCompleted:
       m_PersistentCalls:
         m_Calls: []
-  fragmentLayerName: Castle
-  fragmentsUseGravity: 1
-  fragmentsAreKinematic: 0
-  fragmentMass: 1
-  fragmentDrag: 0
-  fragmentAngularDrag: 0.05
-  wakeFragmentsAfterFracture: 1
-  explosionForce: 0.8
-  explosionRadius: 3
-  explosionUpwardsModifier: 0.2
   currentRefractureCount: 0
 --- !u!1 &8266142462531565825
 GameObject:
@@ -22665,7 +22615,7 @@ GameObject:
   - component: {fileID: 5255561099904180276}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_09
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22829,7 +22779,7 @@ GameObject:
   - component: {fileID: 4722744242186102712}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Dark_Archway_Inset
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22993,7 +22943,7 @@ GameObject:
   - component: {fileID: 943277891854814284}
   m_Layer: 6
   m_Name: MTEC_Keep_Front_Crenel_03
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23157,7 +23107,7 @@ GameObject:
   - component: {fileID: 1717872335428894065}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Corbel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23318,7 +23268,7 @@ GameObject:
   - component: {fileID: 4869633139930786904}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_02
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23411,7 +23361,7 @@ GameObject:
   - component: {fileID: 3314965163850761326}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Crenel_05
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23575,7 +23525,7 @@ GameObject:
   - component: {fileID: 2551952972885038478}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_16
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23739,7 +23689,7 @@ GameObject:
   - component: {fileID: 7885873734776744742}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_09
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23903,7 +23853,7 @@ GameObject:
   - component: {fileID: 3700403290273666541}
   m_Layer: 6
   m_Name: MTEC_Keep_Right_Crenel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24067,7 +24017,7 @@ GameObject:
   - component: {fileID: 5712291635492084076}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Corbel_08
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24231,7 +24181,7 @@ GameObject:
   - component: {fileID: 2306807739629187701}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_15
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24392,7 +24342,7 @@ GameObject:
   - component: {fileID: 1593554342618799564}
   m_Layer: 6
   m_Name: MTEC_Keep_Narrow_Window_Dark_Recess_06
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24485,7 +24435,7 @@ GameObject:
   - component: {fileID: 5545328995545534242}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_24
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24649,7 +24599,7 @@ GameObject:
   - component: {fileID: 4382085649621848440}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_04
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24813,7 +24763,7 @@ GameObject:
   - component: {fileID: 2362560029366351756}
   m_Layer: 6
   m_Name: MTEC_Wall_Part_03_Destructible
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24977,7 +24927,7 @@ GameObject:
   - component: {fileID: 7560583743050506317}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_16
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25141,7 +25091,7 @@ GameObject:
   - component: {fileID: 7872940506349329209}
   m_Layer: 6
   m_Name: MTEC_Wall_Back_Crenel_14
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25305,7 +25255,7 @@ GameObject:
   - component: {fileID: 7380475977269109819}
   m_Layer: 6
   m_Name: MTEC_Keep_Left_Crenel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25469,7 +25419,7 @@ GameObject:
   - component: {fileID: 4975207162389533615}
   m_Layer: 6
   m_Name: MTEC_Wall_Front_Crenel_18
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25633,7 +25583,7 @@ GameObject:
   - component: {fileID: 4398755521782608278}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Parapet_Wall
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25797,7 +25747,7 @@ GameObject:
   - component: {fileID: 4160240704765621968}
   m_Layer: 6
   m_Name: MTEC_Keep_Back_Crenel_07
-  m_TagString: Untagged
+  m_TagString: Castle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25953,6 +25903,154 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6901911318397864999}
     m_Modifications:
+    - target: {fileID: 7890628744697188, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 117128539610421833, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 342620448506341742, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 387504800009074749, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 609662560751540005, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004032683482640658, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018901162822526927, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029032740978997450, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259004969484891195, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556136552916214601, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998119550932060719, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2284941261270312329, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336612163358893446, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2530277044231676635, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989471216072922114, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016397689441085000, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022554275652771521, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3378825125045735135, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386330346226748812, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589269514264820666, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756769947032991892, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854439827064006584, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888958800672080703, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281765613122226268, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886661097487167267, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508137910495484881, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607655155990446611, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644760955003258335, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704524176869126699, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801555919356622613, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246669195967404691, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298872498543780199, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733368464009038145, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177952970636923916, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240605932004376685, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262951743934754414, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617094364886352523, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8591513024718799545, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -25993,9 +26091,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8633210071587366980, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683129819691385546, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9073985403774774005, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
       propertyPath: m_Name
       value: Tower
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073985403774774005, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073985403774774005, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26015,6 +26129,154 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6901911318397864999}
     m_Modifications:
+    - target: {fileID: 7890628744697188, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 117128539610421833, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 342620448506341742, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 387504800009074749, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 609662560751540005, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1004032683482640658, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1018901162822526927, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1029032740978997450, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1259004969484891195, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1556136552916214601, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1998119550932060719, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2284941261270312329, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2336612163358893446, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2530277044231676635, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2989471216072922114, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016397689441085000, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3022554275652771521, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3378825125045735135, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386330346226748812, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3589269514264820666, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3756769947032991892, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3854439827064006584, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3888958800672080703, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4281765613122226268, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4886661097487167267, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508137910495484881, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5607655155990446611, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5644760955003258335, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704524176869126699, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5801555919356622613, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6246669195967404691, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298872498543780199, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6733368464009038145, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177952970636923916, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240605932004376685, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7262951743934754414, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7617094364886352523, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8591513024718799545, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.91
@@ -26055,9 +26317,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8633210071587366980, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683129819691385546, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9073985403774774005, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
       propertyPath: m_Name
       value: Tower (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073985403774774005, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9073985403774774005, guid: 4f792d0e1867cee48b6b7698e4ff59fe, type: 3}
+      propertyPath: m_TagString
+      value: Castle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

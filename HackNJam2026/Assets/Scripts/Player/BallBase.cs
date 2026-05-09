@@ -17,7 +17,7 @@ public class BallBase : MonoBehaviour
     }
 
 
-    private void Update()
+    protected virtual void Update()
     {
         if ((LifeTime -= Time.deltaTime) < 0f)
         {
@@ -27,6 +27,8 @@ public class BallBase : MonoBehaviour
 
     protected virtual void OnCollisionEnter(Collision collision)
     {
-        
+        var p = collision.GetContact(0).point;
+        EffectGenerator.Instance.SpawnDust(p, (p - transform.position).normalized);
+        Destroy(gameObject);
     }
 }
