@@ -2,7 +2,6 @@ using System;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.InputSystem.UI;
 
 
 
@@ -12,9 +11,9 @@ using UnityEngine.InputSystem.UI;
 [DisallowMultipleComponent]
 public class InputManager : Singleton<InputManager>
 {
-    
+
 #if ENABLE_INPUT_SYSTEM
-    
+
     private InputActionAsset ActionAsset;
     private string CurrentActionMap = "";
 
@@ -48,7 +47,7 @@ public class InputManager : Singleton<InputManager>
         {
             ChangeActionMap(defaultMap);
         }
-        
+
         GameStateChangeEvent.OnEventRaised += GameStateChange;
     }
 
@@ -62,7 +61,7 @@ public class InputManager : Singleton<InputManager>
 
     #endregion
 
-    
+
     #region Events
 
     private void GameStateChange(Component comp, object val)
@@ -76,19 +75,19 @@ public class InputManager : Singleton<InputManager>
                 default:
                     ChangeActionMap("UI");
                     break;
-                
+
                 case GAMESTATE.GAME:
                     ChangeActionMap("Player");
                     break;
             }
         }
     }
-    
+
     #endregion
-    
-    
+
+
     #region Registration & Action
-    
+
     /// <summary>
     /// Changes the input to a specific actionmap
     /// You can find the actionmap names in the InputActionAsset
@@ -97,7 +96,7 @@ public class InputManager : Singleton<InputManager>
     public void ChangeActionMap(string actionmap)
     {
         //Empty name -> return
-        if(string.IsNullOrEmpty(actionmap))
+        if (string.IsNullOrEmpty(actionmap))
             return;
 
         //Check if new actionmap exists, if not return        
@@ -105,20 +104,20 @@ public class InputManager : Singleton<InputManager>
         if (newMap == null) return;
 
         //Disable the old action map if it exists
-        if(!string.IsNullOrEmpty(CurrentActionMap))
+        if (!string.IsNullOrEmpty(CurrentActionMap))
         {
             var currentMap = ActionAsset.FindActionMap(CurrentActionMap);
-            if(currentMap != null)
+            if (currentMap != null)
                 currentMap.Disable();
         }
-        
+
         //Enable new actionmap
         CurrentActionMap = actionmap;
         newMap.Enable();
     }
 
-    
-    
+
+
     /// <summary>
     /// Register an action that is either performed once or if you want to listen (pass through value)
     /// </summary>
@@ -206,10 +205,10 @@ public class InputManager : Singleton<InputManager>
             Debug.LogException(e);
         }
     }
-    
+
     #endregion
-    
+
 #endif
-    
+
 }
 
