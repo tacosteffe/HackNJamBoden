@@ -7,15 +7,12 @@ public class MenuSwitcher : Singleton<MenuSwitcher>
     private GameEventSO GameStateChange;
 
     [SerializeField]
-    private GameObject MenuParent;
-    [SerializeField]
     private GameObject GameParent;
 
 
     private void Awake()
     {
         Implement(this, out var _);
-        MenuParent.SetActive(false);
         GameParent.SetActive(false);
         GameStateChange.OnEventRaised += OnStateSwitch;
     }
@@ -27,22 +24,14 @@ public class MenuSwitcher : Singleton<MenuSwitcher>
 
     void OnStateSwitch(Component comp, object value)
     {
-        Debug.Log("STATE SWITCH!");
         if (value is GAMESTATE state)
         {
-            if (state == GAMESTATE.MENU)
+            if (state == GAMESTATE.GAME)
             {
-                MenuParent.SetActive(true);
-                GameParent.SetActive(false);
-            }
-            else if (state == GAMESTATE.GAME)
-            {
-                MenuParent.SetActive(false);
                 GameParent.SetActive(true);
             }
             else
             {
-                MenuParent.SetActive(false);
                 GameParent.SetActive(false);
             }
         }
