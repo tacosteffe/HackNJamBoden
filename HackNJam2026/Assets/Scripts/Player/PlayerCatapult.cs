@@ -46,6 +46,8 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
         UpdateArmRotation();
         SetPlaceholderBall(true);
 
+        PlayerValues.Instance.UpdateAmmoCount(NormalBallAmmoAmount, ExplotionBallAmmoAmount);
+
         InputManager.Instance.SubscribeHeldAction("Player", "Move", OnMove);
         InputManager.Instance.SubscribeSingleAction("Player", "Jump", CallFire);
     }
@@ -209,8 +211,8 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
 
 
     [SerializeField, Header("PlayerValues")]
-    public int NormalBallAmmo;
-    public int ExpltionBallAmmo;
+    public int NormalBallAmmoAmount = 10;
+    public int ExplotionBallAmmoAmount = 5;
 
 
     
@@ -222,6 +224,10 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
         var go = Instantiate(Ball1_Prefab);
         var ball = go.GetComponent<BallBase>();
         ball.Fire(pos, dir, FiringForce);
+
+        if (CurrentActive == 0) NormalBallAmmoAmount -= 1;
+        else if (CurrentActive == 1) ExplotionBallAmmoAmount -= 1;
+        PlayerValues.Instance.UpdateAmmoCount(NormalBallAmmoAmount, ExplotionBallAmmoAmount);
     }
 
 
@@ -232,14 +238,13 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
     }
 
     //TODO call from UI?
-    public void Fire()
-    {
-        if (FireState == FIRING_STATE.WAITING) FireState = FIRING_STATE.FIRING;
-    }
+    
 
     void CallFire(InputAction.CallbackContext ctx)
     {
-        if (FireState == FIRING_STATE.WAITING) FireState = FIRING_STATE.FIRING;
+        if (CurrentActive == 0 && NormalBallAmmoAmount <= 0) return;
+        else if (CurrentActive == 1 && ExplotionBallAmmoAmount <= 0) return;
+        else if (FireState == FIRING_STATE.WAITING) FireState = FIRING_STATE.FIRING;
     }
 
     #endregion

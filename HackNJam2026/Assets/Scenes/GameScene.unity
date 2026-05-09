@@ -1586,6 +1586,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6489861230304747963, guid: c09623b69c72e254c8c79e25de46a876, type: 3}
+      propertyPath: NormalBallAmmo
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6489861230304747963, guid: c09623b69c72e254c8c79e25de46a876, type: 3}
       propertyPath: PlaceholderBall1
       value: 
       objectReference: {fileID: 254261020}
@@ -1593,6 +1597,10 @@ PrefabInstance:
       propertyPath: PlaceholderBall2
       value: 
       objectReference: {fileID: 1637339948}
+    - target: {fileID: 6489861230304747963, guid: c09623b69c72e254c8c79e25de46a876, type: 3}
+      propertyPath: ExplotionBallAmmo
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 8725851595114171197, guid: c09623b69c72e254c8c79e25de46a876, type: 3}
       propertyPath: m_Name
       value: Catapult
