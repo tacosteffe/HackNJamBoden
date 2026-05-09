@@ -686,6 +686,8 @@ MonoBehaviour:
   AimLine: {fileID: 1800926507341598910}
   AimLineLength: 5
   FiringLoc: {fileID: 8368137948211074854}
+  NormalBallAmmoAmount: 18
+  ExplotionBallAmmoAmount: 5
 --- !u!82 &858374146978974185
 AudioSource:
   m_ObjectHideFlags: 0
