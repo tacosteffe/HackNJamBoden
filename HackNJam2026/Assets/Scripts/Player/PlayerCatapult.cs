@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -18,6 +19,8 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
     private float AimAngle = 0f;
     private float MinAngle = 0f;
     private float MaxAngle = 45f;
+
+
 
 
 
@@ -133,7 +136,6 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
             {
                 FireAnimTimer.ResetTimer();
                 FireState = FIRING_STATE.RETRACTING;
-                //TODO depending on selected
                 SetPlaceholderBall(false);
                 Launch();
             }
@@ -158,10 +160,18 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
         ArmWrapper.localRotation = Quaternion.Euler(0f, 0f, CurrentFireAngle);
     }
 
-
+    public int SetCurrentBall { set => CurrentActive = value; }
     private int CurrentActive = 0;
 
-    void SetPlaceholderBall(bool active)
+
+    public void ChangeBall()
+    {
+        //IF FireState == Retracting active -> false
+
+        SetPlaceholderBall(FireState != FIRING_STATE.RETRACTING);
+    }
+
+    public void SetPlaceholderBall(bool active)
     {
         PlaceholderBall1.SetActive(CurrentActive == 0 ? active : false);
         PlaceholderBall2.SetActive(CurrentActive == 1 ? active : false);
@@ -199,7 +209,7 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
         var ball = go.GetComponent<BallBase>();
         ball.Fire(pos, dir, FiringForce);
     }
-    
+
 
     void OnMove(InputAction.CallbackContext ctx)
     {
@@ -208,7 +218,7 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
     }
     
     //TODO call from UI?
-    void Fire()
+    public void Fire()
     {
         if (FireState == FIRING_STATE.WAITING) FireState = FIRING_STATE.FIRING;
     }
