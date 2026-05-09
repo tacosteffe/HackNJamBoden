@@ -17,7 +17,7 @@ public class PlayerValues : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        NormalBallAmmo.text = $"Ammo: {PlayerCatapult.Instance.NormalBallAmmo}";
     }
 
     void SetActiveBN()

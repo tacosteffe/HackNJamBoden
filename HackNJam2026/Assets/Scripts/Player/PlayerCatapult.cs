@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -199,6 +200,13 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
     [SerializeField]
     private Transform FiringLoc;
     private float FiringForce = 30f;
+
+
+    [SerializeField, Header("PlayerValues")]
+    public int NormalBallAmmo;
+    public int ExpltionBallAmmo;
+
+
     
     void Launch()
     {
