@@ -131,7 +131,7 @@ public class PlayerCatapult : Singleton<PlayerCatapult>
     private FIRING_STATE FireState = FIRING_STATE.WAITING;
 
     private EasyTimerNL FireAnimTimer = new EasyTimerNL(0.15f);
-    private EasyTimerNL RetractAnimTimer = new EasyTimerNL(3f);
+    private EasyTimerNL RetractAnimTimer = new EasyTimerNL(1.5f);
 
     [SerializeField]
     private Transform ArmWrapper;
