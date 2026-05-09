@@ -64,7 +64,6 @@
     <Compile Include="Assets\QS\Input\InputManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerCatapult.cs" />
     <Compile Include="Assets\QS\Events\GameEventManager.cs" />
-    <Compile Include="Assets\Scripts\UI\MusicSlider.cs" />
     <Compile Include="Assets\QS\Input\IInputSubscriber.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerValues.cs" />
     <Compile Include="Assets\QS\Game\Singleton.cs" />
@@ -74,6 +73,7 @@
     <Compile Include="Assets\QS\Math\BezierCurve.cs" />
     <Compile Include="Assets\QS\Events\GameEventSO.cs" />
     <Compile Include="Assets\QS\Game\QS_Main.cs" />
+    <Compile Include="Assets\Scripts\UI\AudioSliders.cs" />
     <Compile Include="Assets\Scripts\LoadingScreen\UIRotatingProgress.cs" />
   </ItemGroup>
   <ItemGroup>
